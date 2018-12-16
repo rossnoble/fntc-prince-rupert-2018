@@ -1,0 +1,33 @@
+/*
+* {
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+}
+*/
+
+body {
+  margin: 0;
+  background-color: slategray;
+  color: white;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+
+header,
+footer {
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
+
+section {
+  padding: 30px;
+}
+
+h1 {
+  color: #DDDDDD;
+}
+
+footer {
+  clear: both;
+}
