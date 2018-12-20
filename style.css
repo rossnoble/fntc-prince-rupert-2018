@@ -1,33 +1,114 @@
 /*
-* {
-	margin: 0;
-	padding: 0;
-  box-sizing: border-box;
-}
+  Ross's website styles
 */
 
-body {
+* {
+  font-size: 100%;
   margin: 0;
-  background-color: slategray;
-  color: white;
-  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  line-height: 1;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
 }
 
-header,
-footer {
-  background-color: black;
-  color: white;
+body {
+  background-color: whiteSmoke;
+  background-image: url(images/tree-bark.png);
+  background-repeat: repeat;
+  color: #333333;
+  font-family: 'Crimson Text', Garamond, sans-serif;
+  font-size: 16px;
+}
+
+header {
+  border-bottom: 1px solid gainsboro;
   padding: 30px;
+  background-color: white;
+}
+
+.banner {
+  height: 400px;
+  background-image: url(images/tiger.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.banner h1 {
+  text-align: center;
+  padding-top: 150px;
+  color: white;
+  font-size: 48px;
+  text-shadow: 0 2px 3px black;
+}
+
+.title {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 60px;
 }
 
 section {
+  background-color: white;
+  border: 1px solid gainsboro;
   padding: 30px;
+  margin: 30px;
 }
 
-h1 {
-  color: #DDDDDD;
+.welcome h1 {
+  text-align: center;
+}
+
+.welcome p {
+  font-size: 36px;
+  text-align: center;
 }
 
 footer {
-  clear: both;
+  padding: 60px;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+h1 {
+  color: red;
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p {
+  line-height: 1.5;
+  margin: 15px 0;
+}
+
+ul, ol {
+  margin: 15px 0;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  width: 400px;
+  height: 300px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
 }
